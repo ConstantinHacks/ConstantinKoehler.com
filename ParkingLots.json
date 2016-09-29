@@ -1,0 +1,32 @@
+{
+"ParkingLots": [{
+  "array": [
+    "A",
+    "D"
+  ],
+  "Lot Number": 1,
+  "string": "Lot 1"
+},
+{
+  "array": [
+    "E"
+  ],
+  "Lot Number": 2,
+  "string": "Lot 2"
+},
+{
+  "array": [
+    "A"
+  ],
+  "Lot Number": 3,
+  "string": "Lot 3"
+},
+{
+  "array": [
+    "A"
+  ],
+  "Lot Number": 4,
+  "string": "Lot 4"
+}
+
+]}
