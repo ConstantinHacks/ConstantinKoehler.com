@@ -60,6 +60,26 @@ img.phoneView {
   border-radius: 18px 18px 0 0;
 }
 
+i {
+  font-size: 2em;
+}
+
+.downloadBadge {
+  display:inline-block;
+  overflow:hidden;
+  width:135px;
+  height:40px;
+  background-size:contain;
+}
+
+.ios {
+  background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;
+}
+
+.android {
+  background:url(https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg);
+}
+
 
 /*
  * Extra utilities

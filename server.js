@@ -8,6 +8,10 @@ app.get('/', function (req, res) {
   res.render('index');
 })
 
+app.get('/work', function (req, res) {
+  res.render('work');
+})
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')
 })
