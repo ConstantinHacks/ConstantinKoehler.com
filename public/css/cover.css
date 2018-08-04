@@ -33,6 +33,7 @@ a:hover {
 html,
 body {
   height: 100%;
+  background-color: black;
   background-image: url("../img/baltimore_bg_cropped.png");
   background-position: center;
   background-repeat: no-repeat;
