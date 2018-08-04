@@ -13,5 +13,5 @@ app.get('/work', function (req, res) {
 })
 
 app.listen(process.env.PORT || 5000, function () {
-  console.log('process.env.PORT')
+  console.log(process.env.PORT || 5000)
 })
