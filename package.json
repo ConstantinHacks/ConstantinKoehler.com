@@ -4,7 +4,7 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch",
+    "watch": "gulp watch"
   },
   "engines": {
     "node": "10.16.3"
