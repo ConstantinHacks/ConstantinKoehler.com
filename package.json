@@ -8,6 +8,9 @@
     "build": "gulp",
     "start": "node app.js"
   },
+  "engines": {
+    "node": "10.16.3"
+  },
   "keywords": [
     "portfolio",
     "personal",
