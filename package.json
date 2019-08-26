@@ -4,7 +4,8 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "start": "node app.js"
   },
   "engines": {
     "node": "10.16.3"
@@ -27,5 +28,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
     "gulp-wait": "0.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
