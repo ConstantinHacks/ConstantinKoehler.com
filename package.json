@@ -4,9 +4,8 @@
   "description": "",
   "main": "js/scripts.js",
   "scripts": {
-    "watch": "gulp watch",
-    "build": "gulp",
-    "start": "node app.js"
+    "start": "node app",
+    "postinstall": "gulp default"
   },
   "engines": {
     "node": "10.16.3"
