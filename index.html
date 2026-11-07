@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Constantin Koehler · Partner Solutions Engineer</title>
+  <meta name="description" content="Constantin Koehler is a Partner Solutions Engineer at numo, previously at Google, helping partners design, build and launch great integrations.">
+  <meta name="theme-color" content="#1f1830">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Constantin Koehler · Partner Solutions Engineer">
+  <meta property="og:description" content="Partner Solutions Engineer at numo, previously at Google. Building bridges between partners and platforms.">
+  <meta property="og:image" content="https://constantinkoehler.com/assets/img/og-image.png">
+  <meta property="og:url" content="https://constantinkoehler.com/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <script>
+    // Apply a saved day/night choice before first paint.
+    try {
+      var saved = localStorage.getItem("ck-theme");
+      if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+    } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#profile">Skip to content</a>
+
+  <header class="hud">
+    <a class="hud-brand" href="#top" aria-label="Back to top">
+      <span class="hud-1up">1UP</span>
+      <span class="hud-name">CONSTANTIN</span>
+    </a>
+    <nav class="hud-nav" aria-label="Sections">
+      <a href="#profile">Profile</a>
+      <a href="#quest">Quest</a>
+      <a href="#inventory">Skills</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hud-right">
+      <span class="hud-coins" title="Coins collected">
+        <img src="assets/img/coin.svg" alt="" width="16" height="16">
+        <span class="sr-only">Coins:</span>
+        <span>×</span><span id="coin-count">00</span>
+      </span>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to night mode">
+        <img class="icon-sun" src="assets/img/sun.svg" alt="" width="18" height="18">
+        <img class="icon-moon" src="assets/img/moon.svg" alt="" width="18" height="18">
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <canvas class="hero-scene" id="scene" aria-hidden="true"></canvas>
+      <button class="hero-player" id="hero-player" type="button" aria-label="Make the pixel Constantin jump and collect a coin" hidden></button>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="blink" aria-hidden="true">▶</span> Player 1</p>
+        <h1 id="hero-title">Constantin<br>Koehler</h1>
+        <div class="dialog">
+          <p class="dialog-role">Partner Solutions Engineer <span class="at">at</span> <a class="numo-link" href="https://www.numo.com/" target="_blank" rel="noopener">numo</a></p>
+          <p class="dialog-blurb">numo is revolutionizing Card-Linked Offers: a financial media network connecting banks, merchants and advertisers to turn everyday card purchases into rewards.</p>
+          <p class="dialog-sub">Previously at Google · building bridges between partners and platforms</p>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="#profile">Press start</a>
+          <a class="btn" href="https://www.linkedin.com/in/constantinkoehler/" rel="me noopener" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+      <p class="hero-tip" aria-hidden="true">psst · click me</p>
+    </section>
+
+    <section class="section" id="profile" aria-labelledby="profile-title">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2 id="profile-title">Player profile</h2>
+      </div>
+      <div class="profile">
+        <article class="panel player-card">
+          <div class="portrait">
+            <img src="assets/img/portrait.svg" width="256" height="256" alt="Pixel-art portrait of Constantin: auburn hair, round glasses, a beard and a cream sweater">
+          </div>
+          <dl class="stats">
+            <div><dt>Name</dt><dd>Constantin Koehler</dd></div>
+            <div><dt>Class</dt><dd>Partner Solutions Engineer</dd></div>
+            <div><dt>Guild</dt><dd>numo</dd></div>
+            <div><dt>Previous</dt><dd>Google</dd></div>
+            <div><dt>Origin</dt><dd>Mobile &amp; web engineer</dd></div>
+            <div><dt>Training</dt><dd>B.S. Computer Science, UMBC</dd></div>
+          </dl>
+        </article>
+
+        <div class="panel dialog-box">
+          <p class="speaker">Constantin</p>
+          <p>Hi, I'm Constantin! I'm a Partner Solutions Engineer at <strong>numo</strong>, and before that I did the same job at <strong>Google</strong>.</p>
+          <p>My job is building bridges. I work side by side with partners to design, build and launch integrations, translating between what a partner needs and what the platform can do, and sweating the details until it just works.</p>
+          <p>Earlier in my career I spent years shipping native Android and iOS apps and full-stack web apps. I've been the developer on the other side of the API, so I know where the rough edges are and how to get past them.</p>
+          <span class="dialog-next" aria-hidden="true">▼</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quest" aria-labelledby="quest-title">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2 id="quest-title">Current quest</h2>
+      </div>
+      <article class="panel quest">
+        <div class="quest-top">
+          <div>
+            <p class="label">Main quest</p>
+            <h3>Partner Solutions Engineer</h3>
+            <p class="quest-guild">numo</p>
+          </div>
+          <p class="badge"><span class="blink" aria-hidden="true">●</span> In progress</p>
+        </div>
+        <p class="quest-goal">Goal: help partners get from “how does this work?” to a launched, healthy integration.</p>
+        <ol class="objectives">
+          <li><strong>Scope it.</strong> Understand what a partner is trying to build and map it to the right technical approach.</li>
+          <li><strong>Build it.</strong> Guide architecture and integration work from the first API call to launch day.</li>
+          <li><strong>Unblock it.</strong> Dig into the tricky bugs, edge cases and “works on my machine” moments.</li>
+          <li><strong>Level it up.</strong> Create demos, sample code and docs, and bring partner feedback back to product teams.</li>
+        </ol>
+        <p class="reward"><span class="label">Reward</span> Happy partners and integrations that just work.</p>
+      </article>
+    </section>
+
+    <section class="section" id="inventory" aria-labelledby="inventory-title">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2 id="inventory-title">Inventory</h2>
+      </div>
+      <ul class="items" role="list">
+        <li class="panel item">
+          <img src="assets/img/key.svg" alt="" width="48" height="40">
+          <h3>API integrations</h3>
+          <p>Designing and debugging the integrations that connect partners to a platform.</p>
+        </li>
+        <li class="panel item">
+          <img src="assets/img/map.svg" alt="" width="48" height="36">
+          <h3>Solution architecture</h3>
+          <p>Turning a partner's goals into a technical plan that scales.</p>
+        </li>
+        <li class="panel item">
+          <img src="assets/img/heart.svg" alt="" width="48" height="40">
+          <h3>Partner relationships</h3>
+          <p>A trusted technical advisor from kickoff to launch and beyond.</p>
+        </li>
+        <li class="panel item">
+          <img src="assets/img/lens.svg" alt="" width="48" height="44">
+          <h3>Troubleshooting</h3>
+          <p>Finding the needle in the logs, then fixing the haystack.</p>
+        </li>
+        <li class="panel item">
+          <img src="assets/img/book.svg" alt="" width="48" height="36">
+          <h3>Docs &amp; demos</h3>
+          <p>Sample code, guides and demos that make the happy path obvious.</p>
+        </li>
+        <li class="panel item">
+          <img src="assets/img/bubble.svg" alt="" width="48" height="36">
+          <h3>Feedback loop</h3>
+          <p>Bringing what partners need back to product and engineering.</p>
+        </li>
+        <li class="panel item">
+          <img src="assets/img/phone.svg" alt="" width="48" height="44">
+          <h3>Mobile</h3>
+          <p>Native Android (Kotlin, Java) and iOS (Swift) apps.</p>
+        </li>
+        <li class="panel item">
+          <img src="assets/img/terminal.svg" alt="" width="48" height="32">
+          <h3>Web &amp; scripting</h3>
+          <p>JavaScript, Vue, React Native and Python.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="journey" aria-labelledby="journey-title">
+      <div class="section-head">
+        <span class="section-num">04</span>
+        <h2 id="journey-title">World map</h2>
+      </div>
+      <ol class="levels">
+        <li class="level level-current">
+          <span class="node" aria-hidden="true"><img src="assets/img/star.svg" alt="" width="27" height="24"></span>
+          <div class="panel level-card">
+            <p class="label">Now playing</p>
+            <h3><span class="brand">numo</span></h3>
+            <p class="role">Partner Solutions Engineer</p>
+            <p>Building bridges between partners and the platform, one integration at a time.</p>
+          </div>
+        </li>
+        <li class="level">
+          <span class="node" aria-hidden="true">6</span>
+          <div class="panel level-card">
+            <p class="label">Level 6 · Cleared</p>
+            <h3>Google</h3>
+            <p class="role">Partner Solutions Engineer</p>
+            <p>Helped partners design, build and launch their integrations.</p>
+          </div>
+        </li>
+        <li class="level">
+          <span class="node" aria-hidden="true">5</span>
+          <div class="panel level-card">
+            <p class="label">Level 5 · Cleared</p>
+            <h3>Rivers Agile</h3>
+            <p class="role">Full Stack Web Developer</p>
+            <p>Re-engineered a client's legacy front end in Vue.js and demoed progress in bi-weekly product reviews.</p>
+          </div>
+        </li>
+        <li class="level">
+          <span class="node" aria-hidden="true">4</span>
+          <div class="panel level-card">
+            <p class="label">Level 4 · Cleared</p>
+            <h3>CadmiumCD</h3>
+            <p class="role">Lead Android Engineer</p>
+            <p>Led Android for an industry-leading conference app and raised its Play Store rating from 2.9 to 4.3 in 10 months.</p>
+          </div>
+        </li>
+        <li class="level">
+          <span class="node" aria-hidden="true">3</span>
+          <div class="panel level-card">
+            <p class="label">Level 3 · Cleared</p>
+            <h3>Omnitracs Roadnet</h3>
+            <p class="role">Mobile Application Developer</p>
+            <p>Built native route and fleet-management apps used by more than 10,000 clients, plus full-stack ASP.NET work.</p>
+          </div>
+        </li>
+        <li class="level">
+          <span class="node" aria-hidden="true">2</span>
+          <div class="panel level-card">
+            <p class="label">Level 2 · Cleared</p>
+            <h3>Mindgrub Technologies</h3>
+            <p class="role">Mobile Software Engineer</p>
+            <p>Shipped accessible native iOS and Android apps alongside UI/UX designers.</p>
+          </div>
+        </li>
+        <li class="level">
+          <span class="node" aria-hidden="true">1</span>
+          <div class="panel level-card">
+            <p class="label">Level 1 · Cleared</p>
+            <h3>BackPack'Em</h3>
+            <p class="role">Lead Mobile Developer</p>
+            <p>Led the mobile team at a campus startup, building iOS and Android apps while finishing a degree.</p>
+          </div>
+        </li>
+        <li class="level level-tutorial">
+          <span class="node" aria-hidden="true">0</span>
+          <div class="panel level-card">
+            <p class="label">Tutorial</p>
+            <h3>UMBC</h3>
+            <p class="role">B.S. Computer Science, minor in Political Science</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="panel continue">
+        <p class="continue-countdown" aria-hidden="true">Continue? <span id="countdown">9</span></p>
+        <h2 id="contact-title">Let's team up</h2>
+        <p>Building with numo, exploring a partnership, or up for a friendly chess challenge? Say hi.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/constantinkoehler/" rel="me noopener" target="_blank">Message me on LinkedIn</a>
+          <a class="btn" href="https://lichess.org/@/ConKowski" rel="me noopener" target="_blank">Challenge me on Lichess</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Constantin Koehler · Made with <img class="footer-heart" src="assets/img/heart.svg" alt="love" width="14" height="12"> in Pittsburgh, PA</p>
+    <p class="footer-hint" aria-hidden="true">↑ ↑ ↓ ↓ ← → ← → B A</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
